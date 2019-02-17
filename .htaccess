@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^api/([A-Za-z0-9_]+)$ /api.php?command=$1 [L,QSA]
